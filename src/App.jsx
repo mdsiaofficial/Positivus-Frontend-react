@@ -5,6 +5,7 @@ import Header from "./Comp/Header"
 import Sponsor from "./Comp/Sponsor"
 import Services from "./Comp/Services"
 import ServiceCard from "./Comp/ServiceCard"
+import Proposal from "./Comp/Proposal"
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
       <Navbar />
       <Header />
       <Sponsor />
-      <Services/>
-      {/* <ServiceCard /> */}
+      <Services />
+      <Proposal />
+      
       <Footer />
 
 

@@ -1,14 +1,18 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+/* Custom Font Class */
 
-.trans {
-  @apply transition-all duration-500;
+.space-grotesk-unique {
+  font-family: 'Space Grotesk', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
-body{
+body {
   margin: 0 100px;
   font-size: 16px;
   font-weight: 500;
@@ -18,9 +22,7 @@ body{
 }
 
 @media screen and (max-width:480px) {
-  body{
+  body {
     margin: 0;
   }
 }
-
-

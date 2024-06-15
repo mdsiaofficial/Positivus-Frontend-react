@@ -33,6 +33,7 @@ export default {
         pWhite: "#F3F3F3",
       },
       fontFamily: {
+        'space-grotesk': ['Space Grotesk', 'sans-serif'],
         cus1: [ "Space Grotesk", "sans-serif"],
         custom: [ "Space Grotesk","Cascadia Mono", "monospace"],
       },

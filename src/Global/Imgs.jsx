@@ -15,6 +15,7 @@ import services3 from "../assets/img/services3.png";
 import services4 from "../assets/img/services4.png";
 import services5 from "../assets/img/services5.png";
 import services6 from "../assets/img/services6.png";
+import proposal1 from "../assets/img/proposal1.png";
 
 import rightuplimeblack from "../assets/icon/rightuplimeblack.png";
 import rightuplimewhite from "../assets/icon/rightuplimewhite.png";
@@ -26,4 +27,4 @@ import rightupblackwhite from "../assets/icon/rightupblackwhite.png";
 
 
 
-export { logo1, logo2, ld, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite };
+export { logo1, logo2, ld, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite, proposal1 };
