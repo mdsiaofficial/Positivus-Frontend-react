@@ -6,12 +6,12 @@ const Footer = () => {
     <div>
       <div className="flex flex-col p-10 bg-[black] rounded-t-[10px] md:rounded-t-[30px] text-white">
 
-        <section className='flex justify-between items-center m-5'>
+        <section className='flex flex-col md:flex-row justify-between items-center m-5'>
           {/* logo */}
           <section className=''>
             <img src={logo2} alt="" />
           </section>
-          <ul className='flex flex-row items-center gap-[40px]'>
+          <ul className='flex flex-col md:flex-row m-10 md:m-0 items-center gap-[20px] md:gap-[40px]'>
             <li>About Us</li>
             <li>Services</li>
             <li>Use Cases</li>
@@ -26,9 +26,9 @@ const Footer = () => {
         </section>
 
         {/* footer content */}
-        <section className='flex justify-between '>
+        <section className='flex flex-col md:flex-row justify-center items-center  md:justify-between '>
 
-          <div className="flex flex-col gap-6 m-5 w-[33%]">
+          <div className="flex flex-col gap-6 m-5 text-center md:text-left md:w-[33%]">
             <h1 className="bg-lime-500 text-black inline-block">
               Contact Us:
             </h1>
@@ -37,7 +37,7 @@ const Footer = () => {
             <h1>Address: 763 Rajashon, Savar, Dhaka</h1>
           </div>
 
-          <div className=" bg-[#292A32] rounded-3xl m-5 p-8 gap-10 flex justify-center items-center w-[66%]">
+          <div className=" bg-[#292A32] rounded-3xl m-5 p-8 gap-10 flex flex-col md:flex-row  justify-center items-center md:w-[66%]">
             <input type="text" placeholder='Email' className='px-6 py-3 bg-transparent outline-none border rounded-2xl' />
             <button className='px-6 py-3 bg-lime-500 outline-none border rounded-2xl text-black'>Subscribe to news</button>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
         <section>
           <div className="w-full h-1 bg-[#a0a0a0]"></div>
 
-          <div className="flex flex-col gap-6 md:flex-row p-5">
+          <div className="flex flex-col gap-6 text-center md:flex-row pt-5">
             <p>2022 All Rights Reserved</p>
             <p>Privacy Policy</p>
           </div>
