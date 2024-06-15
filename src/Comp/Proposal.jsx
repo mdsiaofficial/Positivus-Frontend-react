@@ -3,8 +3,8 @@ import { proposal1, rightupblackwhite, rightuplimeblack, rightuplimewhite, servi
 const Proposal = () => {
   return (
     <div>
-      <nav className='flex justify-center'>
-        <section className={`flex flex-col md:flex-row md:justify-center py-10  px-10 md:px-24  rounded-2xl border-black border-2 border-b-[8px] bg-pWhite w-[380px] md:w-[1224px] md:h-[350px] m-5`}>
+      <nav className=' relative flex justify-center my-10'>
+        <section className={` flex flex-col md:flex-row py-10  px-10 md:px-16  rounded-2xl border-black border-2 border-b-[8px] bg-pWhite w-[380px] md:w-[1224px] md:h-[350px] m-5`}>
 
 
           <div className='flex flex-col gap-5  justify-around items-center md:items-start '>
@@ -18,8 +18,8 @@ const Proposal = () => {
             </nav>
           </div>
 
-
-          <img src={proposal1} alt="" className='w-[170px] hidden absolute top-[1890px] right-[410px] md:block  md:w-[430px] md:h-[440px]' />
+          
+          <img src={proposal1} alt="" className='h-[400px] absolute right-64 bottom-0' />
         </section>
       </nav >
     </div>
