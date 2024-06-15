@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className=''>
 
       {/* nav menu desktop */}
-      <section className='hidden md:flex justify-around items-center my-5'>
+      <section className='hidden md:flex justify-between items-center my-5'>
         {/* logo */}
         <section className=''>
           <img src={logo1} alt="" />

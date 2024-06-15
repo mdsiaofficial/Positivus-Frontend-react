@@ -29,9 +29,9 @@ const Footer = () => {
         <section className='flex flex-col md:flex-row justify-center items-center  md:justify-between '>
 
           <div className="flex flex-col gap-6 m-5 text-center md:text-left md:w-[33%]">
-            <h1 className="bg-lime-500 text-black inline-block">
+            <span className="bg-lime-500 text-black w-fit p-1 rounded-md">
               Contact Us:
-            </h1>
+            </span>
             <h1>Email: info@positivus.com</h1>
             <h1>Phone: 44444444444</h1>
             <h1>Address: 763 Rajashon, Savar, Dhaka</h1>
