@@ -28,7 +28,7 @@ const Footer = () => {
         {/* footer content */}
         <section className='flex flex-col md:flex-row justify-center items-center  md:justify-between '>
 
-          <div className="flex flex-col gap-6 m-5 text-center md:text-left md:w-[33%]">
+          <div className="flex flex-col gap-6 m-5 text-center items-center md:text-left md:w-[33%]">
             <span className="bg-lime-500 text-black w-fit p-1 rounded-md">
               Contact Us:
             </span>
@@ -45,10 +45,10 @@ const Footer = () => {
         </section>
 
         {/* bottom */}
-        <section>
+        <section className=''>
           <div className="w-full h-1 bg-[#a0a0a0]"></div>
 
-          <div className="flex flex-col gap-6 text-center md:flex-row pt-5">
+          <div className="flex flex-col gap-6 text-center md:flex-row pt-5 justify-center items-center">
             <p>2022 All Rights Reserved</p>
             <p>Privacy Policy</p>
           </div>

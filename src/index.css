@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities; 
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 .trans {
   @apply transition-all duration-500;
 }
@@ -10,6 +12,9 @@ body{
   margin: 0 100px;
   font-size: 16px;
   font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @media screen and (max-width:480px) {

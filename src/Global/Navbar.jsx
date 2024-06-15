@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { logo1 } from './Imgs'
-import { Link } from 'react-router-dom'
 import { BsMenuButton } from 'react-icons/bs'
 import { CgClose } from 'react-icons/cg'
 const Navbar = () => {
