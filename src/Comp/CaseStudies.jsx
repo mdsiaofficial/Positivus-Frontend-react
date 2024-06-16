@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { rightuplimeblack } from '../Global/Imgs'
 import CaseCard from './CaseCard';
 const CaseStudies = () => {
@@ -18,23 +18,34 @@ const CaseStudies = () => {
     }
   };
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
+      <section className='m-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
+        <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Case Studies</h1>
+        <p className='text-xl md:w-[50%]'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies:</p>
+      </section>
+      <div className=" p-2 flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl md:w-[1224px] mx-auto">
 
-      <div className=" p-2 flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl md:w-fit mx-auto">
-
+        {/* slide */}
+        
         {
           Object.keys(studies).map((item, index) => (
             <>
-            <CaseCard
-              key={index}
-              text={studies[item].text}
+              <CaseCard
+                key={index}
+                text={studies[item].text}
               />
-              <div className={`h-[160px] hidden bg-white w-1 my-auto ${(index>=0 && index<=1) ? "md:block" : "" }`}></div>
-              </>
+              <div className={`h-[160px] hidden bg-white w-1 my-auto ${(index >= 0 && index <= 1) ? "md:block" : ""}`}></div>
+            </>
           ))
         }
-        
+
       </div>
     </div>
   )
