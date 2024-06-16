@@ -23,8 +23,6 @@ function App() {
       <Proposal />
       <CaseStudies />
       <Working/>
-      {/* <Debugger/> */}
-
       <Footer />
 
 

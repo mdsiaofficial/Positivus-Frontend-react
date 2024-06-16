@@ -2,7 +2,33 @@ import React, { useState } from 'react'
 import WorkingCard from './WorkingCard'
 
 const Working = () => {
-  
+  const works = {
+    1: {
+      id: `1`,
+      title: 'Consultation',
+    },
+    2: {
+      id: `2`,
+      title: 'Research and Strategy Development',
+    },
+    3: {
+      id: `3`,
+      title: 'Implementation',
+    },
+    4: {
+      id: `4`,
+      title: 'Monitoring and Optimization',
+    },
+    5: {
+      id: `5`,
+      title: 'Reporting and Communication',
+    },
+    6: {
+      id: `6`,
+      title: 'Continual Improvement',
+    },
+  };
+
   return (
     <div>
       <section className='m-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
@@ -10,7 +36,12 @@ const Working = () => {
         <p className='text-xl md:w-[40%]'>Step-by-Step Guide to Achieving Your Business Goals:</p>
       </section>
 
-      <WorkingCard/>
+      {
+        Object.keys(works).map((item, index) => (
+          <WorkingCard key={index} title={works[item].title} number={works[item].id} />
+
+        ))
+      }
     </div>
   )
 }

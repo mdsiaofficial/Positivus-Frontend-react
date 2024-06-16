@@ -1,7 +1,16 @@
 import React, { useState } from 'react'
 import { rightuplimeblack } from '../Global/Imgs'
 import CaseCard from './CaseCard';
+import './CaseStudies.css'
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
+
 const CaseStudies = () => {
+
 
   const studies = {
     s1: {
@@ -33,7 +42,7 @@ const CaseStudies = () => {
       <div className=" p-2 flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl md:w-[1224px] mx-auto">
 
         {/* slide */}
-        
+
         {
           Object.keys(studies).map((item, index) => (
             <>
@@ -45,6 +54,75 @@ const CaseStudies = () => {
             </>
           ))
         }
+
+        {/* slide */}
+{/*         
+        <div>
+          <div className="container">
+            <h1 className="heading">
+              Gallery
+            </h1>
+
+            <Swiper
+              effect={`coverflow`}
+              grabCursor={true}
+              centeredSlides={true}
+              loop={true}
+              slidesPerView={"auto"}
+              coverflowEffect={{
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2.5,
+              }}
+              modules={[EffectCoverflow, Pagination, Navigation]}
+              pagination={{
+                el: "",
+                clickable: true,
+              }}
+              navigation={{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                clickable: true,
+              }}
+              className="swiper_container"
+
+            >
+
+              {
+                Object.keys(studies).map((item, index) => (
+                  <>
+                    <SwiperSlide>
+                      <CaseCard
+                        key={index}
+                        text={studies[item].text}
+                      />
+                      <div className={`h-[160px] hidden bg-white w-1 my-auto ${(index >= 0 && index <= 1) ? "md:block" : ""}`}></div>
+                    </SwiperSlide>
+                  </>
+                ))
+              }
+
+
+
+
+
+              <div className="slider-controler">
+
+                <div className="swiper-button-pre slider-arrow">
+                  <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+
+                <div className="swiper-button-next slider-arrow">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+                <div className="swiper-pagination"></div>
+
+              </div>
+            </Swiper>
+          </div>
+        </div >
+ */}
 
       </div>
     </div>

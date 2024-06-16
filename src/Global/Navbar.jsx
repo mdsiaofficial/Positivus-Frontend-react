@@ -46,7 +46,7 @@ const Navbar = () => {
               <li>Use Cases</li>
               <li>Pricing</li>
               <li>Blog</li>
-              <li className='border-2 rounded-lg border-black px-[35px] py-[20px]'>Request a Quote</li>
+              <li className='border-2 rounded-lg border-white px-[35px] py-[20px]'>Request a Quote</li>
             </ul>
           )}
         </section>
