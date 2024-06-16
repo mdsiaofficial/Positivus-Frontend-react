@@ -6,6 +6,7 @@ import Sponsor from "./Comp/Sponsor"
 import Services from "./Comp/Services"
 import ServiceCard from "./Comp/ServiceCard"
 import Proposal from "./Comp/Proposal"
+import CaseStudies from "./Comp/CaseStudies"
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Sponsor />
       <Services />
       <Proposal />
-      
+      <CaseStudies/>
       <Footer />
 
 
