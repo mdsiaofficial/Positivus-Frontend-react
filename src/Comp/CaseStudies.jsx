@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { rightuplimeblack } from '../Global/Imgs'
 import CaseCard from './CaseCard';
-import './CaseStudies.css'
+import './CaseStudies.css';
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -35,11 +35,11 @@ const CaseStudies = () => {
 
   return (
     <div>
-      <section className='m-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
+      <section className='m-16 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Case Studies</h1>
         <p className='text-xl md:w-[50%]'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies:</p>
       </section>
-      <div className=" p-2 flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl md:w-[1224px] mx-auto">
+      <div className=" p-2 hidden md:flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl w-[100%] md:w-[1224px] mx-auto">
 
         {/* slide */}
 
@@ -54,15 +54,13 @@ const CaseStudies = () => {
             </>
           ))
         }
-
+      </div>
+      <div>
         {/* slide */}
-{/*         
-        <div>
-          <div className="container">
-            <h1 className="heading">
-              Gallery
-            </h1>
 
+        <div className='md:hidden'>
+          <div className="container">
+          
             <Swiper
               effect={`coverflow`}
               grabCursor={true}
@@ -109,7 +107,7 @@ const CaseStudies = () => {
 
               <div className="slider-controler">
 
-                <div className="swiper-button-pre slider-arrow">
+                <div className="swiper-button-prev slider-arrow">
                   <ion-icon name="arrow-back-outline"></ion-icon>
                 </div>
 
@@ -122,7 +120,7 @@ const CaseStudies = () => {
             </Swiper>
           </div>
         </div >
- */}
+
 
       </div>
     </div>

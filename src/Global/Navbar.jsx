@@ -26,13 +26,13 @@ const Navbar = () => {
       </section>
 
       {/* nav menu mobile */}
-      <section className='flex flex-row md:hidden items-center justify-around my-4 transition-all'>
+      <section className='flex flex-row md:hidden items-center justify-between mx-10 my-4 transition-all'>
         {/* logo */}
         <section className=''>
-          <img src={logo1} alt="" />
+          <img src={logo1} alt="" className='h-10'/>
         </section>
         {/* menu */}
-        <section>
+        <section className='transition-all'>
           <button onClick={() => setMenu(!menu)}>
             {menu ? <CgClose className='text-4xl' /> : <BsMenuButton className='text-4xl' />}
           </button>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 /* Custom Font Class */
 
 .space-grotesk-unique {
@@ -13,7 +13,7 @@
 }
 
 body {
-  margin: 0 100px;
+  margin: 0 200px;
   font-size: 16px;
   font-weight: 500;
   font-family: "Space Grotesk", sans-serif;
