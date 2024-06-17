@@ -9,6 +9,8 @@ import Proposal from "./Comp/Proposal"
 import CaseStudies from "./Comp/CaseStudies"
 import Working from "./Comp/Working"
 import Teams from "./Comp/Teams"
+import TestyCard from "./Cards/TestyCard"
+import Testimonial from "./Comp/Testimonial"
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
       <Proposal />
       <CaseStudies />
       <Working />
-      <Teams/>
+      <Teams />
+      <TestyCard />
+      <Testimonial/>
       <Footer />
 
 

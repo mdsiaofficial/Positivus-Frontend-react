@@ -30,7 +30,7 @@ import team1 from "../assets/img/team1.png";
 import team2 from "../assets/img/team2.png";
 import team3 from "../assets/img/team3.png";
 
+import testimonial from "../assets/img/testimonial.png";
 
 export {
-  logo1, logo2, ld, ld2, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite, proposal1, plus, minus, team1, team2, team3
-};
+  logo1, logo2, ld, ld2, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite, proposal1, plus, minus, team1, team2, team3, testimonial };

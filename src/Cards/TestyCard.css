@@ -1,0 +1,32 @@
+/* 
+
+<div className='message-box w-[450px] h-[100%] p-6 m-6 md:m-3 rounded-3xl flex justify-self-center'>
+          We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.
+          </div>
+          
+          <div className='mt-10 ml-16'>
+            <h1 className='text-primary'>{name}</h1>
+            <p>Marketing Director at XYZ Corp</p>
+          </div>
+          
+          */
+.message-box {
+  background-color: #222; /* Dark gray background */
+  border: 2px solid #90ee90; /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Padding around the text */
+  color: white; /* White text */
+  font-family: sans-serif; /* Choose a font family */
+  position: relative; /* For positioning the arrow */
+}
+
+.message-box::before {
+  content: "";
+  position: absolute;
+  top: 100%; /* Position at the bottom of the box */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-120%); /* Adjust for centering */
+  border-left: 50px solid transparent; /* Transparent left border */
+  border-right: 50px solid transparent; /* Transparent right border */
+  border-top: 30px solid #90ee90; /* Green bottom border */
+}
