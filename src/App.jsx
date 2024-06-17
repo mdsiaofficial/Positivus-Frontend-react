@@ -8,6 +8,7 @@ import ServiceCard from "./Comp/ServiceCard"
 import Proposal from "./Comp/Proposal"
 import CaseStudies from "./Comp/CaseStudies"
 import Working from "./Comp/Working"
+import Teams from "./Comp/Teams"
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Services />
       <Proposal />
       <CaseStudies />
-      <Working/>
+      <Working />
+      <Teams/>
       <Footer />
 
 

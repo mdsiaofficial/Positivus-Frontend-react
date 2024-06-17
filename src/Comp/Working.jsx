@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import WorkingCard from './WorkingCard'
+import WorkingCard from '../Cards/WorkingCard'
 
 const Working = () => {
   const works = {

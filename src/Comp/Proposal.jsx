@@ -19,7 +19,7 @@ const Proposal = () => {
           </div>
 
           
-          <img src={proposal1} alt="" className='hidden md:block h-[400px] absolute right-80 bottom-0' />
+          <img src={proposal1} alt="" className='hidden md:block h-[400px] absolute right-[10rem] bottom-0' />
         </section>
       </nav >
     </div>

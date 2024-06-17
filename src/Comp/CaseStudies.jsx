@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { rightuplimeblack } from '../Global/Imgs'
-import CaseCard from './CaseCard';
+import CaseCard from '../Cards/CaseCard';
 import './CaseStudies.css';
 import "swiper/css";
 import "swiper/css/effect-coverflow";

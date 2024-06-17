@@ -1,6 +1,7 @@
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.png";
 import ld from "../assets/icon/ld.png";
+import ld2 from "../assets/icon/ld2.png";
 import fb from "../assets/icon/fb.png";
 import amazon from "../assets/img/amazon.png";
 import dribble from "../assets/img/dribble.png";
@@ -25,7 +26,11 @@ import rightupblackwhite from "../assets/icon/rightupblackwhite.png";
 import plus from '../assets/icon/plus.png';
 import minus from '../assets/icon/minus.png';
 
+import team1 from "../assets/img/team1.png";
+import team2 from "../assets/img/team2.png";
+import team3 from "../assets/img/team3.png";
 
 
-
-export { logo1, logo2, ld, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite, proposal1, plus, minus, };
+export {
+  logo1, logo2, ld, ld2, x, fb, amazon, dribble, hubspot, notion, netflix, zoom, services1, services2, services3, services4, services5, services6, rightuplimeblack, rightuplimewhite, rightupwhiteblack, rightupwhitelime, rightupblacklime, rightupblackwhite, proposal1, plus, minus, team1, team2, team3
+};
