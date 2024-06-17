@@ -13,6 +13,15 @@ const Testimonial = () => {
     "Abu Taher Saikat",
     "Eita Ami Nije Vai",
     "Arekta Jani Na",
+    "Rahul Roy Nipon",
+    "Asif Alom Rony",
+    "Risikesh Roy",
+    "Abu Taher Saikat",
+    "Eita Ami Nije Vai",
+    "Arekta Jani Na",
+    "Rahul Roy Nipon",
+    "Asif Alom Rony",
+    "Risikesh Roy",
   ]
   return (
     <div>
@@ -20,15 +29,15 @@ const Testimonial = () => {
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Case Studies</h1>
         <p className='text-xl md:w-[50%]'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies:</p>
       </section>
-      <div className=" p-2 hidden md:flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl w-[100%] md:w-[1224px] mx-auto">
+      {/* <div className=" p-2 hidden md:flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl w-[100%] md:w-[1224px] mx-auto">
 
         
-      </div>
+      </div> */}
       <div>
         {/* slide */}
 
         <div className=''>
-          <div className="container">
+          <div className="container-r">
 
             <Swiper
               effect={`coverflow`}
@@ -48,11 +57,11 @@ const Testimonial = () => {
                 clickable: true,
               }}
               navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next-r",
+                prevEl: ".swiper-button-prev-r",
                 clickable: true,
               }}
-              className="swiper_container"
+              className="swiper_container-r"
 
             >
 
@@ -70,18 +79,18 @@ const Testimonial = () => {
               }
 
 
-              <div className="slider-controler">
+              {/* <div className="slider-controler-r">
 
-                <div className="swiper-button-prev slider-arrow">
-                  <ion-icon name="arrow-back-outline"></ion-icon>
+                <div className="swiper-button-prev-r slider-arrow-r">
+                  <ion-icon name="arrow-back-outline-r"></ion-icon>
                 </div>
 
-                <div className="swiper-button-next slider-arrow">
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                <div className="swiper-button-next-r slider-arrow-r">
+                  <ion-icon name="arrow-forward-outline-r"></ion-icon>
                 </div>
-                <div className="swiper-pagination"></div>
+                <div className="swiper-pagination-r"></div>
 
-              </div>
+              </div> */}
             </Swiper>
           </div>
         </div >

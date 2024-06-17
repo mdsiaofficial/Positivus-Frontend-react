@@ -71,7 +71,7 @@ const Teams = () => {
         <p className='text-xl md:w-[40%]'>Meet the skilled and experienced team behind our successful digital marketing strategies:</p>
       </section>
 
-      <section className=''>
+      <section className='md:w-[90%] mx-auto'>
 
         <div className='flex flex-col md:flex-row flex-wrap justify-between items-center'>
           {

@@ -59,7 +59,7 @@ const CaseStudies = () => {
         {/* slide */}
 
         <div className='md:hidden'>
-          <div className="container">
+          <div className="container-v">
           
             <Swiper
               effect={`coverflow`}
@@ -79,11 +79,11 @@ const CaseStudies = () => {
                 clickable: true,
               }}
               navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next-v",
+                prevEl: ".swiper-button-prev-v",
                 clickable: true,
               }}
-              className="swiper_container"
+              className="swiper_container-v"
 
             >
 
@@ -105,7 +105,7 @@ const CaseStudies = () => {
 
 
 
-              <div className="slider-controler">
+              {/* <div className="slider-controler">
 
                 <div className="swiper-button-prev slider-arrow">
                   <ion-icon name="arrow-back-outline"></ion-icon>
@@ -116,7 +116,8 @@ const CaseStudies = () => {
                 </div>
                 <div className="swiper-pagination"></div>
 
-              </div>
+              </div> */}
+
             </Swiper>
           </div>
         </div >

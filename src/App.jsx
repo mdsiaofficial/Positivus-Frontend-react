@@ -27,7 +27,7 @@ function App() {
       <CaseStudies />
       <Working />
       <Teams />
-      <TestyCard />
+      {/* <TestyCard /> */}
       <Testimonial/>
       <Footer />
 
