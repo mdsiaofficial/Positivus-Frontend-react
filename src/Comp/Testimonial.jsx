@@ -25,9 +25,9 @@ const Testimonial = () => {
   ]
   return (
     <div>
-      <section className='m-16 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
-        <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Case Studies</h1>
-        <p className='text-xl md:w-[50%]'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies:</p>
+      <section className='mx-16 md:mb-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
+        <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Testimonials</h1>
+        <p className='text-xl md:w-[50%]'>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services:</p>
       </section>
       {/* <div className=" p-2 hidden md:flex gap-3 flex-col md:flex-row items-center md:bg-pBlack rounded-3xl w-[100%] md:w-[1224px] mx-auto">
 
