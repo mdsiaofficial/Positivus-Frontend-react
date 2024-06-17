@@ -64,7 +64,7 @@ const Teams = () => {
 
   }
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
 
       <section className='m-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Team</h1>
@@ -95,7 +95,9 @@ const Teams = () => {
 
 
       </section>
-      <button onClick={handleShow} className='w-fit text-white m-5 bg-pBlack rounded-xl p-2 md:p-3'><p>{ showFull ? "See Less" : "See Full Team" }</p></button>
+      
+      <button onClick={handleShow} className='w-fit text-white m-5 bg-pBlack rounded-xl p-2 md:p-3'><p>{showFull ? "See Less" : "See Full Team"}</p></button>
+      
     </div>
   )
 }

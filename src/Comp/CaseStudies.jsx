@@ -35,7 +35,7 @@ const CaseStudies = () => {
 
   return (
     <div>
-      <section className='m-16 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
+      <section className='mx-16 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Case Studies</h1>
         <p className='text-xl md:w-[50%]'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies:</p>
       </section>
