@@ -64,7 +64,7 @@ const Teams = () => {
 
   }
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center' id="teams">
 
       <section className='m-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Team</h1>

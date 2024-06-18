@@ -3,9 +3,9 @@ import { contact } from '../Global/Imgs'
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact-us">
 
-      <section>
+      <section className='mt-10'>
         <section className='mx-16 md:mb-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
           <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Contact Us</h1>
           <p className='text-xl md:w-[50%]'>Connect with Us: Let's Discuss Your Digital Marketing Needs:</p>

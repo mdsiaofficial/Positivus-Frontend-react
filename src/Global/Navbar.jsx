@@ -1,28 +1,27 @@
-import React, { useState } from 'react'
-import { logo1 } from './Imgs'
-import { BsMenuButton } from 'react-icons/bs'
-import { CgClose } from 'react-icons/cg'
-const Navbar = () => {
+import React, { useState } from 'react';
+import { logo1 } from './Imgs';
+import { BsMenuButton } from 'react-icons/bs';
+import { CgClose } from 'react-icons/cg';
 
+const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
     <div className=''>
-
       {/* nav menu desktop */}
       <section className='hidden md:flex justify-between items-center my-5'>
         {/* logo */}
         <section className=''>
-          <img src={logo1} alt="" />
+        <a href="#"><img src={logo1} alt="" /></a>
         </section>
         <ul className='flex flex-row items-center gap-[40px]'>
-          <li>Services</li>
-          <li>Case Studies</li>
-          <li>Working Process</li>
-          <li>Teams</li>
-          <li>Testimonials</li>
-          <li>Contact Us</li>
-          <li className='border-2 rounded-lg border-black px-[35px] py-[20px]'>Request a Quote</li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#case-studies">Case Studies</a></li>
+          <li><a href="#working-process">Working Process</a></li>
+          <li><a href="#teams">Teams</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <li className='border-2 rounded-lg border-black px-[35px] py-[20px]'><a href="#request-quote">Request a Quote</a></li>
         </ul>
       </section>
 
@@ -42,21 +41,28 @@ const Navbar = () => {
               <button onClick={() => setMenu(!menu)}>
                 <CgClose className='text-4xl' />
               </button>
-              <li>Services</li>
-              <li>Case Studies</li>
-              <li>Working Process</li>
-              <li>Teams</li>
-              <li>Testimonials</li>
-              <li>Contact Us</li>
-              <li className='border-2 rounded-lg border-white px-[35px] py-[20px]'>Request a Quote</li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#case-studies">Case Studies</a></li>
+              <li><a href="#working-process">Working Process</a></li>
+              <li><a href="#teams">Teams</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact-us">Contact Us</a></li>
+              <li className='border-2 rounded-lg border-white px-[35px] py-[20px]'><a href="#request-quote">Request a Quote</a></li>
             </ul>
           )}
         </section>
       </section>
 
-
+      {/* Add id attributes to each component */}
+      {/* <div id="services">Services component</div>
+      <div id="case-studies">Case Studies component</div>
+      <div id="working-process">Working Process component</div>
+      <div id="teams">Teams component</div>
+      <div id="testimonials">Testimonials component</div>
+      <div id="contact-us">Contact Us component</div>
+      <div id="request-quote">Request a Quote component</div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -9,14 +9,15 @@ const Footer = () => {
         <section className='flex flex-col md:flex-row justify-between items-center m-5'>
           {/* logo */}
           <section className=''>
-            <img src={logo2} alt="" />
+          <a href="#"><img src={logo2} alt="" /></a>
           </section>
           <ul className='flex flex-col md:flex-row m-10 md:m-0 items-center gap-[20px] md:gap-[40px]'>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Use Cases</li>
-            <li>Pricing</li>
-            <li>Blog</li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#working-process">Working Process</a></li>
+            <li><a href="#teams">Teams</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
           </ul>
           <nav className='flex gap-5'>
             <img src={fb} alt="" />
@@ -54,7 +55,7 @@ const Footer = () => {
           </div>
         </section>
 
-        
+
       </div>
     </div>
   )

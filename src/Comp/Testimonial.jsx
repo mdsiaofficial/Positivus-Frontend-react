@@ -24,7 +24,7 @@ const Testimonial = () => {
     "Risikesh Roy",
   ]
   return (
-    <div>
+    <div id="testimonials">
       <section className='mx-16 md:mb-10 flex flex-col md:flex-row items-center gap-10 w-[70%] justify-center'>
         <h1 className='bg-primary text-3xl w-fit h-fit rounded-lg p-1 font-bold '>Testimonials</h1>
         <p className='text-xl md:w-[50%]'>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services:</p>
