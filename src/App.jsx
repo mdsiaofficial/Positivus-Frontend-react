@@ -11,6 +11,7 @@ import Working from "./Comp/Working"
 import Teams from "./Comp/Teams"
 import TestyCard from "./Cards/TestyCard"
 import Testimonial from "./Comp/Testimonial"
+import Contact from "./Comp/Contact"
 
 
 function App() {
@@ -27,8 +28,9 @@ function App() {
       <CaseStudies />
       <Working />
       <Teams />
-      {/* <TestyCard /> */}
-      <Testimonial/>
+      <Testimonial />
+      
+      <Contact/>
       <Footer />
 
 

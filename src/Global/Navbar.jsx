@@ -5,7 +5,7 @@ import { CgClose } from 'react-icons/cg'
 const Navbar = () => {
 
   const [menu, setMenu] = useState(false);
-  
+
   return (
     <div className=''>
 
@@ -16,11 +16,12 @@ const Navbar = () => {
           <img src={logo1} alt="" />
         </section>
         <ul className='flex flex-row items-center gap-[40px]'>
-          <li>About Us</li>
           <li>Services</li>
-          <li>Use Cases</li>
-          <li>Pricing</li>
-          <li>Blog</li>
+          <li>Case Studies</li>
+          <li>Working Process</li>
+          <li>Teams</li>
+          <li>Testimonials</li>
+          <li>Contact Us</li>
           <li className='border-2 rounded-lg border-black px-[35px] py-[20px]'>Request a Quote</li>
         </ul>
       </section>
@@ -29,7 +30,7 @@ const Navbar = () => {
       <section className='flex flex-row md:hidden items-center justify-between mx-10 my-4 transition-all'>
         {/* logo */}
         <section className=''>
-          <img src={logo1} alt="" className='h-10'/>
+          <img src={logo1} alt="" className='h-10' />
         </section>
         {/* menu */}
         <section className='transition-all'>
@@ -41,11 +42,12 @@ const Navbar = () => {
               <button onClick={() => setMenu(!menu)}>
                 <CgClose className='text-4xl' />
               </button>
-              <li>About Us</li>
               <li>Services</li>
-              <li>Use Cases</li>
-              <li>Pricing</li>
-              <li>Blog</li>
+              <li>Case Studies</li>
+              <li>Working Process</li>
+              <li>Teams</li>
+              <li>Testimonials</li>
+              <li>Contact Us</li>
               <li className='border-2 rounded-lg border-white px-[35px] py-[20px]'>Request a Quote</li>
             </ul>
           )}
