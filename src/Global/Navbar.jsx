@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className=''>
       {/* nav menu desktop */}
-      <section className='hidden md:flex justify-between items-center my-5'>
+      <section className='hidden md:flex justify-between mx-10 items-center my-5'>
         {/* logo */}
         <section className=''>
         <a href="#"><img src={logo1} alt="" /></a>
